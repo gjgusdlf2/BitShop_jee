@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	홍길동 로그인 성공
-	<a href="">홈으로 이동</a>
+	<h1>게시판 메인</h1>
 </body>
 </html>

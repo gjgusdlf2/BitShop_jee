@@ -5,11 +5,14 @@ String id = request.getParameter("id");
 String name = request.getParameter("name");
 String pass = request.getParameter("pass");
 String ssn = request.getParameter("ssn");
+String weigth = request.getParameter("weigth");
+String height = request.getParameter("height");
 String year = "";
 String month = "";
 String day = "";
 String gender = "";
 String bmi = "";
+
 %>
 <!DOCTYPE html>
 <html>
@@ -24,7 +27,7 @@ String bmi = "";
 <h3>생년월일 : <%=year %>년  <%= month %> 월 <%= day %> 일생</h3> <br />
 <h3>성 별 : <%= gender %></h3> <br />
 <h3>BMI : <%= bmi %></h3> <br />
-<a href="">로그인으로 이동</a> <br />
-<a href="">홍으로 이동</a>
+<a href="../login-result.jsp">로그인으로 이동</a> <br />
+<a href="../index.jsp">홍으로 이동</a>
 </body>
 </html>

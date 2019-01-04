@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>회원관리</h1><br />
-	<h3><a href="../index.jsp">홈으로</a></h3>
-	<h3><a href="join-from.jsp">회원가입</a></h3>
+	홍길동 로그인 성공
+	<a href="../index.jsp">홈으로 이동</a>
 </body>
 </html>
